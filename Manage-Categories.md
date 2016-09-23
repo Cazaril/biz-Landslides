@@ -1,0 +1,39 @@
+# Introduction to WireCloud
+.fx: cover
+@conwet
+---
+
+Manage Categories
+
+
+Admin users are authorized to create the system categories that can be used by *Sellers* to categorize their catalogs, products, and offerings.
+
+To create categories, go to the *Administration* section, and click on *New*
+
+.. image:: /images/user/cat2.png
+   :align: center
+
+Then, provide a name and an optional description for the category. Once the information has been included, click on *Next*, and then on *Create*
+
+.. image:: /images/user/cat3.png
+   :align: center
+
+.. image:: /images/user/cat4.png
+   :align: center
+
+Categories in the Business API Ecosystem can be nested, so you can choose a parent category if you want, while creating.
+
+.. image:: /images/user/cat5.png
+   :align: center
+
+Existing categories can be updated. To edit a category click on the category name.
+
+.. image:: /images/user/cat6.png
+   :align: center
+
+Then edit the corresponding fields and click on *Update*.
+
+.. image:: /images/user/cat7.png
+   :align: center
+
+
