@@ -3,19 +3,20 @@
 
 for i in $(ls *.md);
 do
-    echo "
+    sed -i -r 's| Business API ecosystem|Business API ecosystem|g' ./$i
+#     echo "
 
----
+# ---
 
-.fx: back-cover
+# .fx: back-cover
 
-Thanks!
+# Thanks!
 
-FIWARE                                FIWARE Lab
-OPEN APIs FOR OPEN MINDS              Spark your imagination
+# FIWARE                                FIWARE Lab
+# OPEN APIs FOR OPEN MINDS              Spark your imagination
 
-         www.fiware.org               FIWARE Ops
-twitter: @Fiware                      Easing your operations" >> $i
+#          www.fiware.org               FIWARE Ops
+# twitter: @Fiware                      Easing your operations" >> $i
 #    sed -i -r 's_=[[:digit:]]+x[[:digit:]]+_ _g' ./$i
 done
     

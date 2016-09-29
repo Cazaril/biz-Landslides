@@ -1,4 +1,4 @@
-# Introduction to WireCloud
+# Business API ecosystem
 
 .fx: cover
 
