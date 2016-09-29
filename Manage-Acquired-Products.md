@@ -125,3 +125,16 @@ If the acquired product has a usage based price plan, you will be able to see yo
 # Manage Acquired Products
 ![](./images/user/inv14.png  )
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

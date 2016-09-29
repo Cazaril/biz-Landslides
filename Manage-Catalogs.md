@@ -76,3 +76,16 @@ Then update the fields you want to modify and click on *Update*. In this view, i
 
 ![](./images/user/catalog7.png  )
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

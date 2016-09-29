@@ -103,3 +103,16 @@ Then, update the required fields (including the stakeholders if you want), and c
 
 ![](./images/user/revenue10.png  )
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

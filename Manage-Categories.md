@@ -62,3 +62,16 @@ Then edit the corresponding fields and click on *Update*.
 ![](./images/user/cat7.png  )
 
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

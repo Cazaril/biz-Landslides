@@ -3,7 +3,9 @@
 
 for i in $(ls *.md);
 do
-    echo "---
+    echo "
+
+---
 
 .fx: back-cover
 

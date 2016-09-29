@@ -228,3 +228,16 @@ In the displayed form, change the fields you want to edit and click on *Update*.
 
 ![](./images/user/offering22.png  )
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

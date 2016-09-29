@@ -71,3 +71,16 @@ You can see the generated reports clicking on *RS Reports*
 Note: Sellers would need to have a PayPal account associated to the email of their FIWARE IdM account in order to be paid for their products
 
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

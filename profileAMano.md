@@ -51,3 +51,15 @@ To create a contact medium, fill in the fields and click on *Create*
 You can *Edit* or *Remove* the contact medium by clicking on the corresponding button
 
  ![](./images/user/profile11.png  )
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

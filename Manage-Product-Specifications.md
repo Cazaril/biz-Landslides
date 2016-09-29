@@ -194,3 +194,16 @@ offering that includes the product specification you will be required to change 
 ![](./images/user/product21.png  )
 
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

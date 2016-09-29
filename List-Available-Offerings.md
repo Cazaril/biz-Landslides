@@ -84,3 +84,16 @@ In the displayed view, it is shown the general info about the offering and its i
 
 ![](./images/user/search10.png  )
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

@@ -106,3 +106,16 @@ Finally, when the product arrives at its destination, you have to put it as *Com
 ![](./images/user/provord12.png  )
 
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

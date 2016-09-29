@@ -106,3 +106,15 @@ You can *Edit* or *Remove* the contact medium by clicking on the corresponding b
 # Profile Configuration
 
 ![](./images/user/profile11.png  )
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

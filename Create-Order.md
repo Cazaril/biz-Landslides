@@ -89,3 +89,15 @@ Finally, you will see a confirmation page
 # Create order
 
 ![](./images/user/order9.png  )
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

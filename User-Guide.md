@@ -14,3 +14,15 @@ This user guide contains a description of the different tasks that can be perfor
 * Admin
 * Seller
 * Customer
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

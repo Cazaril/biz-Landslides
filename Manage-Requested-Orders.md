@@ -69,3 +69,16 @@ To leave a note, write it in the provided text area and click on the send button
 # Manage Requested Orders
 
 ![](./images/user/custord7.png  )
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations

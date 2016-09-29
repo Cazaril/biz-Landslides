@@ -22,3 +22,16 @@ If the user of the Business API Ecosystem has the *Seller* role, he will be able
 ![](./images/user/catalog1.png  )
 
 
+
+
+---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations
