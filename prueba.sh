@@ -4,7 +4,8 @@
 for i in $(ls *.html);
 do
     #    sed -i -r 's| Business API ecosystem|Business API ecosystem|g' ./$i
-    sed -i -r 's|(src=".*") (title="=1x1")|\1 width="1200" height="410"|g'
+    #    sed -i -r 's|(src=".*") (title="=1x1")|\1 width="1200" height="410"|g' ./$i
+    sed -i -r 's|Application Mashup \(WireCloud\) course \@ http\:\/\/edu\.fiware\.org|Business API Ecosystem \(WireCloud\) course \@ http\:\/\/edu\.fiware\.org|g' ./$i
     #    sed -i -r 's| (=1x1)|\1|g' ./$i
 #     echo "
 
