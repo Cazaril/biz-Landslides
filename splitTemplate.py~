@@ -1,0 +1,66 @@
+import re
+
+names = [{'name': 'Introduction'},
+         {'name': 'Installation'},
+         {'name': 'Requirements'},
+         {'name': 'TM Forum APIs and RSS requirements'},
+         {'name': 'Charging Backend requirements'},
+         {'name': 'Logic Proxy requirements'},
+         {'name': 'Installing basic dependencies'},
+         {'name': 'Installing basic dependencies using the script'},
+         {'name': 'Installing basic dependencies manually'},
+         {'name': 'APIs dependencies'},
+         {'name': 'Java 8 Debian_Ubuntu'},
+         {'name': 'Java 8 CentOS 7'},
+         {'name': 'MySQL and Maven Debian_Ubuntu'},
+         {'name': 'MySQL and Maven CentOS 7'},
+         {'name': 'Glassfish'},
+         {'name': 'Charging Backend dependencies'},
+         {'name': 'Python 2.7 Debian_Ubuntu'},
+         {'name': 'Python 2.7 CentOS'},
+         {'name': 'MongoDB Debian_Ubuntu'},
+         {'name': 'MongoDB CentOS 7'},
+         {'name': 'Wkhtmltopdf Debian_Ubuntu'},
+         {'name': 'Wkhtmltopdf CentOS 7'},
+         {'name': 'Logic Proxy Dependencies'},
+         {'name': 'Installing the Business API Ecosystem'},
+         {'name': 'Installing the Business API Ecosystem using the script'},
+         {'name': 'Debian_Ubuntu'},
+         {'name': 'CentOS 7'},
+         {'name': 'Debian_Ubuntu'},
+         {'name': 'CentOS 7'},
+         {'name': 'Installing the Business API Ecosystem Manually'},
+         {'name': 'Installing TM Forum APIs'},
+         {'name': 'Installing the RSS'},
+         {'name': 'Installing the Charging Backend'},
+         {'name': 'Installing the Logic Proxy'},
+         {'name': 'Configuration'},
+         {'name': 'Configuring the RSS'},
+         {'name': 'Configuring the Charging Backend'},
+         {'name': 'Configuring the Logic Proxy'},
+         {'name': 'Final steps'},
+         {'name': 'Running the Business API Ecosystem'},
+         {'name': 'Running the APIs and the RSS'},
+         {'name': 'Running the Charging Backend'},
+         {'name': 'Running the Logic Proxy'},
+         {'name': 'Installing Asset Plugins'},
+         {'name': 'Sanity check Procedures'},
+         {'name': 'End to End Testing'},
+         {'name': 'List of Running Processes'},
+         {'name': 'Network interfaces Up & Open'},
+         {'name': 'Databases'},
+         {'name': 'Diagnosis Procedures'},
+         {'name': 'Resource Availability'},
+         {'name': 'Remote Service Access'},
+         {'name': 'Resource Consumption'},
+         {'name': 'I_O Flows'}]
+
+with open('./instalacionTemplate.txt') as template:
+    temp = template.read()
+    formatedFile = re.sub(r'(.*\n)(=+|-+|\++)', r'\2\n#\1', temp)
+    l = re.split(r'=+|-+|\++', formatedFile)
+    i = 1
+    for nam in names:
+        with open('./{}.text'.format(nam.get('name')), 'w') as g:
+            g.write('{}\n'.format(l[i]))
+            i = i + 1
