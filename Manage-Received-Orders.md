@@ -14,17 +14,17 @@ To view your received orders go to *My inventory* section, click on *Product ord
 ---
 # Manage Received Orders
 
-![](./images/user/provord1.png  )
+![](./images/user/provord1.png =1x1)
 
 ---
 # Manage Received Orders
 
-![](./images/user/provord2.png  )
+![](./images/user/provord2.png =1x1)
 
 ---
 # Manage Received Orders
 
-![](./images/user/provord3.png  )
+![](./images/user/provord3.png =1x1)
 
 ---
 # Manage Received Orders
@@ -34,7 +34,7 @@ You can view the details of a received order clicking on the order date
 ---
 # Manage Received Orders
 
-![](./images/user/provord4.png  )
+![](./images/user/provord4.png =1x1)
 
 ---
 # Manage Received Orders
@@ -46,7 +46,7 @@ Additionally, you can view the customer notes clicking on the *Notes* tab
 ---
 # Manage Received Orders
 
-![](./images/user/provord5.png  )
+![](./images/user/provord5.png =1x1)
 
 ---
 # Manage Received Orders
@@ -56,7 +56,7 @@ You can also give a reply to customer notes including it in the text area and cl
 ---
 # Manage Received Orders
 
-![](./images/user/provord6.png  )
+![](./images/user/provord6.png =1x1)
 
 ---
 # Manage Received Orders
@@ -68,12 +68,12 @@ To reject a received order you have to click in the *Reject* button located in t
 ---
 # Manage Received Orders
 
-![](./images/user/provord7.png  )
+![](./images/user/provord7.png =1x1)
 
 ---
 # Manage Received Orders
 
-![](./images/user/provord8.png  )
+![](./images/user/provord8.png =1x1)
 
 ---
 # Manage Received Orders
@@ -83,12 +83,12 @@ In case you accept the order and send the product to the customer, you have to p
 ---
 # Manage Received Orders
 
-![](./images/user/provord9.png  )
+![](./images/user/provord9.png =1x1)
 
 ---
 # Manage Received Orders
 
-![](./images/user/provord10.png  )
+![](./images/user/provord10.png =1x1)
 
 ---
 # Manage Received Orders
@@ -98,12 +98,12 @@ Finally, when the product arrives at its destination, you have to put it as *Com
 ---
 # Manage Received Orders
 
-![](./images/user/provord11.png  )
+![](./images/user/provord11.png =1x1)
 
 ---
 # Manage Received Orders
 
-![](./images/user/provord12.png  )
+![](./images/user/provord12.png =1x1)
 
 
 

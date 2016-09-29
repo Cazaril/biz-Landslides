@@ -12,7 +12,7 @@ Product Specifications represent the product being offered, both digital and phy
 ---
 # Manage Product Specifications
 
-![](./images/user/product1.png  )
+![](./images/user/product1.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -22,12 +22,12 @@ The different product specifications can be filtered by status or by if they are
 ---
 # Manage Product Specifications
 
-![](./images/user/product2.png  )
+![](./images/user/product2.png =1x1)
 
 ---
 # Manage Product Specifications
 
-![](./images/user/product3.png  )
+![](./images/user/product3.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -37,12 +37,12 @@ Additionally, it is possible to switch between the grid view and the tabular vie
 ---
 # Manage Product Specifications
 
-![](./images/user/product4.png  )
+![](./images/user/product4.png =1x1)
 
 ---
 # Manage Product Specifications
 
-![](./images/user/product5.png  )
+![](./images/user/product5.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -51,7 +51,7 @@ To create a new product specification click on *New*
 
 ---
 # Manage Product Specifications
-![](./images/user/product6.png  )
+![](./images/user/product6.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -61,7 +61,7 @@ In the displayed view, provide the general information of the product spec. incl
 ---
 # Manage Product Specifications
 
-![](./images/user/product7.png  )
+![](./images/user/product7.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -71,7 +71,7 @@ In the next step, you can choose whether your product specification is a bundle 
 ---
 # Manage Product Specifications
 
-![](./images/user/product8.png  )
+![](./images/user/product8.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -81,7 +81,7 @@ If you have decided to create a bundle, you will be required to choose 2 or more
 ---
 # Manage Product Specifications
 
-![](./images/user/product9.png  )
+![](./images/user/product9.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -95,12 +95,12 @@ For providing the asset, you have to choose between the available asset types, c
 ---
 # Manage Product Specifications
 
-![](./images/user/product10.png  )
+![](./images/user/product10.png =1x1)
 
 ---
 # Manage Product Specifications
 
-![](./images/user/product11.png  )
+![](./images/user/product11.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -110,7 +110,7 @@ The next step in the creation of a product is including its characteristics. For
 ---
 # Manage Product Specifications
 
-![](./images/user/product12.png  )
+![](./images/user/product12.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -120,7 +120,7 @@ In the form, include the name, the type (string or number) and an optional descr
 ---
 # Manage Product Specifications
 
-![](./images/user/product13.png  )
+![](./images/user/product13.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -130,7 +130,7 @@ Once you have included all the characteristic info, save it clicking on *Add Cha
 ---
 # Manage Product Specifications
 
-![](./images/user/product14.png  )
+![](./images/user/product14.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -140,7 +140,7 @@ Once you have included all the required characteristics click on *Next*
 ---
 # Manage Product Specifications
 
-![](./images/user/product15.png  )
+![](./images/user/product15.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -150,12 +150,12 @@ In the next step you can include a picture for your product spec. You have two o
 ---
 # Manage Product Specifications
 
-![](./images/user/product16.png  )
+![](./images/user/product16.png =1x1)
 
 ---
 # Manage Product Specifications
 
-![](./images/user/product17.png  )
+![](./images/user/product17.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -165,12 +165,12 @@ In the last step, you can specify relationships of the product you are creating 
 ---
 # Manage Product Specifications
 
-![](./images/user/product18.png  )
+![](./images/user/product18.png =1x1)
 
 ---
 # Manage Product Specifications
 
-![](./images/user/product19.png  )
+![](./images/user/product19.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -180,7 +180,7 @@ Sellers can update their products. To do that click on the product specification
 ---
 # Manage Product Specifications
 
-![](./images/user/product20.png  )
+![](./images/user/product20.png =1x1)
 
 ---
 # Manage Product Specifications
@@ -191,7 +191,7 @@ offering that includes the product specification you will be required to change 
 ---
 # Manage Product Specifications
 
-![](./images/user/product21.png  )
+![](./images/user/product21.png =1x1)
 
 
 

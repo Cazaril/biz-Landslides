@@ -14,7 +14,7 @@ To create categories, go to the *Administration* section, and click on *New*
 ---
 # Manage Categories
 
-![](./images/user/cat2.png  )
+![](./images/user/cat2.png =1x1)
 
 ---
 # Manage Categories
@@ -24,12 +24,12 @@ Then, provide a name and an optional description for the category. Once the info
 ---
 # Manage Categories
 
-![](./images/user/cat3.png  )
+![](./images/user/cat3.png =1x1)
 
 ---
 # Manage Categories
 
-![](./images/user/cat4.png  )
+![](./images/user/cat4.png =1x1)
 
 ---
 # Manage Categories
@@ -39,7 +39,7 @@ Categories in the Business API Ecosystem can be nested, so you can choose a pare
 ---
 # Manage Categories
 
-![](./images/user/cat5.png  )
+![](./images/user/cat5.png =1x1)
 
 ---
 # Manage Categories
@@ -49,7 +49,7 @@ Existing categories can be updated. To edit a category click on the category nam
 ---
 # Manage Categories
 
-![](./images/user/cat6.png  )
+![](./images/user/cat6.png =1x1)
 
 ---
 # Manage Categories
@@ -59,7 +59,7 @@ Then edit the corresponding fields and click on *Update*.
 ---
 # Manage Categories
 
-![](./images/user/cat7.png  )
+![](./images/user/cat7.png =1x1)
 
 
 

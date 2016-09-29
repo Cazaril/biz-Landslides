@@ -19,7 +19,7 @@ If the user of the Business API Ecosystem has the *Seller* role, he will be able
 ---
 # Seller
 
-![](./images/user/catalog1.png  )
+![](./images/user/catalog1.png =1x1)
 
 
 

@@ -12,7 +12,7 @@ Sellers can manage the transactions related to their products in order to know h
 ---
 #Manage Transactions
 
-![](./images/user/tran1.png  )
+![](./images/user/tran1.png =1x1)
 
 ---
 #Manage Transactions
@@ -22,12 +22,12 @@ In the displayed view, you can see the transactions pending to be paid to you an
 ---
 #Manage Transactions
 
-![](./images/user/tran2.png  )
+![](./images/user/tran2.png =1x1)
 
 ---
 #Manage Transactions
 
-![](./images/user/tran3.png  )
+![](./images/user/tran3.png =1x1)
 
 ---
 #Manage Transactions
@@ -39,7 +39,7 @@ To create a new report click on *New Report*
 ---
 #Manage Transactions
 
-![](./images/user/tran4.png  )
+![](./images/user/tran4.png =1x1)
 
 ---
 #Manage Transactions
@@ -49,7 +49,7 @@ In the displayed modal, choose the product classes to be calculated and click on
 ---
 #Manage Transactions
 
-![](./images/user/tran5.png  )
+![](./images/user/tran5.png =1x1)
 
 ---
 #Manage Transactions
@@ -61,12 +61,12 @@ You can see the generated reports clicking on *RS Reports*
 ---
 #Manage Transactions
 
-![](./images/user/tran6.png  )
+![](./images/user/tran6.png =1x1)
 
 ---
 #Manage Transactions
 
-![](./images/user/tran7.png  )
+![](./images/user/tran7.png =1x1)
 
 Note: Sellers would need to have a PayPal account associated to the email of their FIWARE IdM account in order to be paid for their products
 

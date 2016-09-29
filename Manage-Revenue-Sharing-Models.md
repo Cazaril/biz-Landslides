@@ -14,7 +14,7 @@ To manage RS models go to the *Revenue Sharing* section.
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue1.png  )
+![](./images/user/revenue1.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
@@ -24,7 +24,7 @@ In this view, you can see the revenue sharing models you have available. By defa
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue2.png  )
+![](./images/user/revenue2.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
@@ -34,7 +34,7 @@ You can create a new RS model clicking on *New*
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue3.png  )
+![](./images/user/revenue3.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
@@ -44,7 +44,7 @@ In the first step of the process you have to provide a product class, which iden
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue4.png  )
+![](./images/user/revenue4.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
@@ -54,7 +54,7 @@ In the next step, you can optionally add more stakeholders to the RS model. To d
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue5.png  )
+![](./images/user/revenue5.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
@@ -64,7 +64,7 @@ Then, select the Stakeholder between the available users, and provide its percen
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue6.png  )
+![](./images/user/revenue6.png =1x1)
 
 Note: The total percentage (provider + platform + stakeholders) must be equal to 100
 
@@ -76,12 +76,12 @@ Finally, click on *Next* and then on *Create*
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue7.png  )
+![](./images/user/revenue7.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue8.png  )
+![](./images/user/revenue8.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
@@ -91,7 +91,7 @@ Sellers can also update their RS model. To do that click on the RS model to be u
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue9.png  )
+![](./images/user/revenue9.png =1x1)
 
 ---
 # Manage Revenue Sharing Models
@@ -101,7 +101,7 @@ Then, update the required fields (including the stakeholders if you want), and c
 ---
 # Manage Revenue Sharing Models
 
-![](./images/user/revenue10.png  )
+![](./images/user/revenue10.png =1x1)
 
 
 

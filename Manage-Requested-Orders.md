@@ -13,7 +13,7 @@ Customers can manage some aspects of the orders they have created. To see your r
 ---
 # Manage Requested Orders
 
-![](./images/user/custord1.png  )
+![](./images/user/custord1.png =1x1)
 
 ---
 # Manage Requested Orders
@@ -23,12 +23,12 @@ In the displayed view, you can see the orders you have created, which can be fil
 ---
 # Manage Requested Orders
 
-![](./images/user/custord2.png  )
+![](./images/user/custord2.png =1x1)
 
 ---
 # Manage Requested Orders
 
-![](./images/user/custord3.png  )
+![](./images/user/custord3.png =1x1)
 
 ---
 # Manage Requested Orders
@@ -38,7 +38,7 @@ For those orders that include offerings of non digital products, you will be abl
 ---
 # Manage Requested Orders
 
-![](./images/user/custord4.png  )
+![](./images/user/custord4.png =1x1)
 
 ---
 # Manage Requested Orders
@@ -48,7 +48,7 @@ Moreover, you can review the details of the order. To do that click on the date 
 ---
 # Manage Requested Orders
 
-![](./images/user/custord5.png  )
+![](./images/user/custord5.png =1x1)
 
 ---
 # Manage Requested Orders
@@ -58,7 +58,7 @@ In the displayed view, you can see all the details of the order, as well as the 
 ---
 # Manage Requested Orders
 
-![](./images/user/custord6.png  )
+![](./images/user/custord6.png =1x1)
 
 ---
 # Manage Requested Orders
@@ -68,7 +68,7 @@ To leave a note, write it in the provided text area and click on the send button
 ---
 # Manage Requested Orders
 
-![](./images/user/custord7.png  )
+![](./images/user/custord7.png =1x1)
 
 
 ---

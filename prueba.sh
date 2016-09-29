@@ -3,7 +3,8 @@
 
 for i in $(ls *.md);
 do
-    sed -i -r 's| Business API ecosystem|Business API ecosystem|g' ./$i
+    #    sed -i -r 's| Business API ecosystem|Business API ecosystem|g' ./$i
+    sed -i -r 's| (=1x1)|\1|g' ./$i
 #     echo "
 
 # ---

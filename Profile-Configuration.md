@@ -14,7 +14,7 @@ To configure the user profile, the first step is opening the user *Settings* loc
 ---
 # Profile Configuration
 
-![](./images/user/profile1.png  )
+![](./images/user/profile1.png =1x1)
 
 ---
 # Profile Configuration
@@ -26,7 +26,7 @@ To create the profile, fill in the required information and click on *Update*
 ---
 # Profile Configuration
 
-![](./images/user/profile2.png  )
+![](./images/user/profile2.png =1x1)
 
 Note: Only the *First name* and *Last name* fields are mandatory
 
@@ -38,7 +38,7 @@ Once you have created your profile, you can include contact mediums by going to 
 ---
 # Profile Configuration
 
-![](./images/user/profile3.png  )
+![](./images/user/profile3.png =1x1)
 
 ---
 # Profile Configuration
@@ -50,7 +50,7 @@ To create a shipping address, fill in the fields and click on *Create*
 ---
 # Profile Configuration
 
-![](./images/user/profile4.png  )
+![](./images/user/profile4.png =1x1)
 
 ---
 # Profile Configuration
@@ -60,12 +60,12 @@ Once created, you can edit the address by clicking on the *Edit* button of the s
 ---
 # Profile Configuration
 
-![](./images/user/profile5.png  )
+![](./images/user/profile5.png =1x1)
 
 ---
 # Profile Configuration
 
-![](./images/user/profile6.png  )
+![](./images/user/profile6.png =1x1)
 
 ---
 # Profile Configuration
@@ -75,7 +75,7 @@ On the other hand, if you have the *Seller* role you can create *Business Addres
 ---
 # Profile Configuration
 
-![](./images/user/profile7.png  )
+![](./images/user/profile7.png =1x1)
 
 ---
 # Profile Configuration
@@ -85,17 +85,17 @@ In the *Business Addresses* tab you can create, different kind of contact medium
 ---
 # Profile Configuration
 
-![](./images/user/profile8.png  )
+![](./images/user/profile8.png =1x1)
 
 ---
 # Profile Configuration
 
-![](./images/user/profile9.png  )
+![](./images/user/profile9.png =1x1)
 
 ---
 # Profile Configuration
 
-![](./images/user/profile10.png  )
+![](./images/user/profile10.png =1x1)
 
 ---
 # Profile Configuration
@@ -105,7 +105,7 @@ You can *Edit* or *Remove* the contact medium by clicking on the corresponding b
 ---
 # Profile Configuration
 
-![](./images/user/profile11.png  )
+![](./images/user/profile11.png =1x1)
 
 ---
 
