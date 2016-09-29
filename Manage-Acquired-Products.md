@@ -13,7 +13,7 @@ them, check their status, or download different assets.
 ---
 # Manage Acquired Products
 
-![](./images/user/inv1.png =1200x250)
+![](./images/user/inv1.png  )
 
 ---
 # Manage Acquired Products
@@ -23,12 +23,12 @@ In this view, it is possible to filter you products by its status. To do that cl
 ---
 # Manage Acquired Products
 
-![](./images/user/inv2.png =1200x250)
+![](./images/user/inv2.png  )
 
 ---
 # Manage Acquired Products
 
-![](./images/user/inv3.png =1200x250)
+![](./images/user/inv3.png  )
 
 ---
 # Manage Acquired Products
@@ -38,12 +38,12 @@ It is also possible to switch between the grid and tabular views using the relat
 ---
 # Manage Acquired Products
 
-![](./images/user/inv4.png =1200x250)
+![](./images/user/inv4.png  )
 
 ---
 # Manage Acquired Products
 
-![](./images/user/inv5.png =1200x250)
+![](./images/user/inv5.png  )
 
 ---
 # Manage Acquired Products
@@ -52,7 +52,7 @@ You can manage a specific acquired product clicking on it
 
 ---
 # Manage Acquired Products
-![](./images/user/inv6.png =1200x250)
+![](./images/user/inv6.png  )
 
 ---
 # Manage Acquired Products
@@ -62,17 +62,17 @@ In the displayed view, you can see the general info of the acquired product, and
 ---
 # Manage Acquired Products
 
-![](./images/user/inv7.png =1200x250)
+![](./images/user/inv7.png  )
 
 ---
 # Manage Acquired Products
 
-![](./images/user/inv8.png =1200x250)
+![](./images/user/inv8.png  )
 
 ---
 # Manage Acquired Products
 
-![](./images/user/inv9.png =1200x250)
+![](./images/user/inv9.png  )
 
 ---
 # Manage Acquired Products
@@ -82,7 +82,7 @@ Additionally, you can see your charges related to the product accessing to the *
 ---
 # Manage Acquired Products
 
-![](./images/user/inv10.png =1200x250)
+![](./images/user/inv10.png  )
 
 ---
 # Manage Acquired Products
@@ -92,7 +92,7 @@ will be able to download the related invoice clicking on *Download Invoice*
 
 ---
 # Manage Acquired Products
-![](./images/user/inv11.png =1200x250)
+![](./images/user/inv11.png  )
 
 ---
 # Manage Acquired Products
@@ -101,7 +101,7 @@ Moreover, this product view allows to download the related assets when the produ
 
 ---
 # Manage Acquired Products
-![](./images/user/inv12.png =1200x250)
+![](./images/user/inv12.png  )
 
 ---
 # Manage Acquired Products
@@ -112,7 +112,7 @@ you will be able to renew your product clicking on *Renew*. After clicking, you 
 ---
 # Manage Acquired Products
 
-![](./images/user/inv13.png =1200x250)
+![](./images/user/inv13.png  )
 
 Note: If you product has expired and you do not renew it, it will be suspended, which means you will not have access to the acquired service until you pay
 
@@ -123,5 +123,5 @@ If the acquired product has a usage based price plan, you will be able to see yo
 
 ---
 # Manage Acquired Products
-![](./images/user/inv14.png =1200x250)
+![](./images/user/inv14.png  )
 

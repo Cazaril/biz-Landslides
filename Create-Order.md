@@ -15,12 +15,12 @@ click on the *Add to Cart* button located in the offering panel when searching, 
 ---
 # Create order
 
-![](./images/user/order1.png =1200x250)
+![](./images/user/order1.png  )
 
 ---
 # Create order
 
-![](./images/user/order2.png =1200x250)
+![](./images/user/order2.png  )
 
 ---
 # Create Order
@@ -30,12 +30,12 @@ If the offering has configurable characteristics or multiple price plans, a moda
 ---
 # Create order
 
-![](./images/user/order3.png =1200x250)
+![](./images/user/order3.png  )
 
 ---
 # Create order
 
-![](./images/user/order4.png =1200x250)
+![](./images/user/order4.png  )
 
 ---
 # Create Order
@@ -45,7 +45,7 @@ Once you have selected your preferences for the offering click on *Add to Cart*
 ---
 # Create order
 
-![](./images/user/order5.png =1200x250)
+![](./images/user/order5.png  )
 
 ---
 # Create Order
@@ -55,7 +55,7 @@ Once you have included all the offerings you want to acquire to the shopping car
 ---
 # Create order
 
-![](./images/user/order6.png =1200x250)
+![](./images/user/order6.png  )
 
 ---
 # Create Order
@@ -68,7 +68,7 @@ Once you have provided all the required information you can start the order crea
 
 ---
 # Create order
-![](./images/user/order7.png =1200x250)
+![](./images/user/order7.png  )
 
 ---
 # Create Order
@@ -78,7 +78,7 @@ In the next step, you will be redirected to *PayPal* so you can pay for the offe
 ---
 # Create order
 
-![](./images/user/order8.png =1200x250)
+![](./images/user/order8.png  )
 
 ---
 # Create Order
@@ -88,4 +88,4 @@ Finally, you will see a confirmation page
 ---
 # Create order
 
-![](./images/user/order9.png =1200x250)
+![](./images/user/order9.png  )

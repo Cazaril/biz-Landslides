@@ -1,8 +1,19 @@
 #!/bin/bash
 
 
-for i in $(ls *.html);
+for i in $(ls *.md);
 do
-    sed -i 's_\(src=".\+.png" \)title="=\([[:digit:]]\+\)x\([[:digit:]]\+\)"_\1 width="\2" height="\3" _g' ./$i
+    echo "---
+
+.fx: back-cover
+
+Thanks!
+
+FIWARE                                FIWARE Lab
+OPEN APIs FOR OPEN MINDS              Spark your imagination
+
+         www.fiware.org               FIWARE Ops
+twitter: @Fiware                      Easing your operations" >> $i
+#    sed -i -r 's_=[[:digit:]]+x[[:digit:]]+_ _g' ./$i
 done
     

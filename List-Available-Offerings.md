@@ -12,7 +12,7 @@ All the available (*Launched*) offerings appear in the *Home* page of the Busine
 ---
 # List Available Offerings
 
-![](./images/user/search1.png =1200x250)
+![](./images/user/search1.png  )
 
 ---
 # List Available Offerings
@@ -22,12 +22,12 @@ Additionally, customers can select an specific catalog of offerings by clicking 
 ---
 # List Available Offerings
 
-![](./images/user/search2.png =1200x250)
+![](./images/user/search2.png  )
 
 ---
 # List Available Offerings
 
-![](./images/user/search3.png =1200x250)
+![](./images/user/search3.png  )
 
 ---
 # List Available Offerings
@@ -37,7 +37,7 @@ Moreover, customers can filter the shown offerings by category using the categor
 ---
 # List Available Offerings
 
-![](./images/user/search4.png =1200x250)
+![](./images/user/search4.png  )
 
 ---
 # List Available Offerings
@@ -47,12 +47,12 @@ Finally, customers can also filter bundle or single offerings using the *Filters
 ---
 # List Available Offerings
 
-![](./images/user/search5.png =1200x250)
+![](./images/user/search5.png  )
 
 ---
 # List Available Offerings
 
-![](./images/user/search6.png =1200x250)
+![](./images/user/search6.png  )
 
 ---
 # List Available Offerings
@@ -62,7 +62,7 @@ Customers can open the details of an offering by clicking on it
 ---
 # List Available Offerings
 
-![](./images/user/search7.png =1200x250)
+![](./images/user/search7.png  )
 
 ---
 # List Available Offerings
@@ -72,15 +72,15 @@ In the displayed view, it is shown the general info about the offering and its i
 ---
 # List Available Offerings
 
-![](./images/user/search8.png =1200x250)
+![](./images/user/search8.png  )
 
 ---
 # List Available Offerings
 
-![](./images/user/search9.png =1200x250)
+![](./images/user/search9.png  )
 
 ---
 # List Available Offerings
 
-![](./images/user/search10.png =1200x250)
+![](./images/user/search10.png  )
 

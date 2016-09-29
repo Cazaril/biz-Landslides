@@ -15,5 +15,5 @@ the *Administration* section of the web portal. This section is located in the u
 ---
 # Admin
 
-![](./images/user/cat1.png =1200x250)
+![](./images/user/cat1.png  )
 

@@ -13,7 +13,7 @@ The *Catalogs* section is the one that is open by default when the seller access
 ---
 # Manage Catalogs
 
-![](./images/user/catalog2.png =1200x250)
+![](./images/user/catalog2.png  )
 
 ---
 # Manage Catalogs
@@ -24,12 +24,12 @@ you are playing by clicking on *Filters*, choosing the required ones, and clicki
 ---
 # Manage Catalogs
 
-![](./images/user/catalog8.png =1200x250)
+![](./images/user/catalog8.png  )
 
 ---
 # Manage Catalogs
 
-![](./images/user/catalog9.png =1200x250)
+![](./images/user/catalog9.png  )
 
 ---
 # Manage Catalogs
@@ -39,7 +39,7 @@ To create a new catalog click on the *New* button.
 ---
 # Manage Catalogs
 
-![](./images/user/catalog3.png =1200x250)
+![](./images/user/catalog3.png  )
 
 ---
 # Manage Catalogs
@@ -49,12 +49,12 @@ Then, provide a name and an optional description for the catalog. Once you have 
 ---
 # Manage Catalogs
 
-![](./images/user/catalog4.png =1200x250)
+![](./images/user/catalog4.png  )
 
 ---
 # Manage Catalogs
 
-![](./images/user/catalog5.png =1200x250)
+![](./images/user/catalog5.png  )
 
 ---
 # Manage Catalogs
@@ -64,7 +64,7 @@ Sellers, can also update their catalogs. To do that, click on the name of the ca
 ---
 # Manage Catalogs
 
-![](./images/user/catalog6.png =1200x250)
+![](./images/user/catalog6.png  )
 
 ---
 # Manage Catalogs
@@ -74,5 +74,5 @@ Then update the fields you want to modify and click on *Update*. In this view, i
 ---
 # Manage Catalogs
 
-![](./images/user/catalog7.png =1200x250)
+![](./images/user/catalog7.png  )
 
