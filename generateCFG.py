@@ -1,5 +1,3 @@
-import re
-
 names = [{'name': 'Introduction'},
          {'name': 'Installation'},
          {'name': 'Configuration'},

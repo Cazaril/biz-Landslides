@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<!--
+Copyright 2010 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Original slides: Marcin Wichary (mwichary@google.com)
+Modifications: Ernest Delgado (ernestd@google.com)
+Alex Russell (slightlyoff@chromium.org)
+
+landslide modifications: Adam Zapletal (adamzap@gmail.com)
+Nicolas Perriault (nperriault@gmail.com)
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Introduction to Business API ecosystem</title>
+        <!-- Styles -->
+        
+        <link rel="stylesheet" media="print" href="fiwaretheme/css/print.css">
+        <link rel="stylesheet" media="screen, projection" href="fiwaretheme/css/screen.css">
+        
+        
+        <!-- /Styles -->
+        <!-- Javascripts -->
+        
+        <script type="text/javascript" src="fiwaretheme/js/slides.js"></script>
+        
+        
+        <!-- /Javascripts -->
+    </head>
+    <body>
+        <div id="blank"></div>
+        <div class="presentation">
+            <div id="current_presenter_notes">
+                <div id="presenter_note"></div>
+            </div>
+            <div class="slides">
+                
+                <div class="slide-wrapper">
+                    <section class="slide cover">
+                        
+
+                        <header class="slide-header"><h1>Introduction to Business API ecosystem</h1><h2>Application Mashup (WireCloud) course @ http://edu.fiware.org</h2></header>
+                        <img class="fiware-contact" src="fiwaretheme/images/FIWARE-contact.png"/>
+                        <img class="fiware-logo" src="fiwaretheme/images/FIWARE-full.png"/>
+                        <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops-full.png"/>
+
+                        <div class="navigation-tip">Use <kbd class="key">←</kbd> and <kbd class="key">→</kbd> to move around. Press <kbd class="key">h</kbd> for getting more info</div>
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h1>Configuration</h1>
+                        </header>
+                        
+                        <div class="contents"><p>At this step, the different components of the Business API Ecosystem are
+installed. In the case of the TMForum APIs and the RSS, this
+installation process has already required to configure their database
+connection before their deployment, so they are already configured.
+Nevertheless, this section contains an explanation of the function of
+the different settings of the RSS properties files.</p></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            2/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the RSS</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The RSS has its settings included in two files located at
+<em>/etc/default/rss</em>. The file <em>database.properties</em> contains by default
+the following fields:</p>
+<pre><code>database.url=jdbc:mysql://localhost:3306/RSS
+database.username=root
+database.password=root
+database.driverClassName=com.mysql.jdbc.Driver
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            3/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the RSS</h2>
+                        </header>
+                        
+                        <div class="contents"><p>This file contains the configuration required in order to connect to the
+database.</p>
+<ul>
+<li>database.url: URL used to connect to the database, this URL includes
+    the host and port of the database as well as the concrete database
+    to be used</li>
+<li>database.username: User to be used to connect to the database</li>
+<li>database.password: Password of the database user</li>
+<li>database.driverClassName: Driver class of the database. By default
+    MySQL</li>
+</ul></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            4/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the RSS</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The file <em>oauth.properties</em> contains by default the following fields (It
+is recommended not to modify them) :</p>
+<pre><code>config.grantedRole=Provider
+config.sellerRole=Seller
+config.aggregatorRole=aggregator
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            5/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the RSS</h2>
+                        </header>
+                        
+                        <div class="contents"><p>This file contains the name of the roles (registered in the idm) that
+are going to be used by the RSS.</p>
+<ul>
+<li>config.grantedRole: Role in the IDM of the users with admin
+    privileges</li>
+<li>config.sellerRole: Role in the IDM of the users with seller
+    privileges</li>
+<li>config.aggregatorRole: Role of the users who are admins of an store
+    instance. In the context of the Business API Ecosystem there is only
+    a single store instance, so you can safely ignore this flag</li>
+</ul></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            6/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The Charging Backend creates some objects and connections in the
+different APIs while working, so the first step is configuring the
+different URLs of the Business API Ecosystem components by modifying the
+file <em>services_settings.py</em>, which by default contains the following
+content:</p>
+<pre><code>INVENTORY = 'http://localhost:8080/DSProductInventory'
+ORDERING = 'http://localhost:8080/DSProductOrdering'
+BILLING = 'http://localhost:8080/DSBillingManagement'
+RSS = 'http://localhost:8080/DSRevenueSharing'
+USAGE = 'http://localhost:8080/DSUsageManagement'
+AUTHORIZE_SERVICE = 'http://localhost:8004/authorizeService/apiKeys'
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            7/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>This settings points to the different APIs accessed by the charging
+backend. Concretely:</p>
+<ul>
+<li>INVENTORY: URL of the inventory API including its path</li>
+<li>ORDERING: URL of the ordering API including its path</li>
+<li>BILLING: URL of the billing API including its path</li>
+<li>RSS: URL of the RSS including its path</li>
+<li>USAGE: URL of the Usage API including its path</li>
+<li>AUTHORIZE_SERVICE: Complete URL of the usage authorization service.
+    This service is provided by the logic proxy, and is used to generate
+    API Keys to be used by accounting systems when providing usage
+    information.</li>
+</ul></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            8/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Once the services has been configured, the next step is configuring the
+database. In this case, the charging backend uses MongoDB, and its
+connection can be configured modifying the <em>DATABASES</em> setting of the
+<em>settings.py</em> file. :</p>
+<pre><code>DATABASES = {
+    'default': {
+        'ENGINE': 'django_mongodb_engine',
+        'NAME': 'wstore_db',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+        'TEST_NAME': 'test_database',
+    }
+}
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            9/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>This setting contains the following fields:</p>
+<ul>
+<li>ENGINE: Database engine, must be fixed to django_mongodb_engine</li>
+<li>NAME: Name of the database to be used</li>
+<li>USER: User of the database. If empty the software creates a non
+    authenticated connection</li>
+<li>PASSWORD: Database user password. If empty the software creates a
+    non authenticated connection</li>
+<li>HOST: Host of the database. If empty it uses the default <em>localhost</em>
+    host</li>
+<li>PORT: Port of the database. If empty it uses the default <em>27017</em>
+    port</li>
+<li>TEST_NAME: Name of the database to be used when running the tests</li>
+</ul></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            10/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Once the database connection has been configured, the next step is
+configuring the name of the IdM roles to be used by updating
+<em>settings.py</em> :</p>
+<pre><code>ADMIN_ROLE = 'provider'
+PROVIDER_ROLE = 'seller'
+CUSTOMER_ROLE = 'customer'
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            11/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>This settings contain the following values:</p>
+<ul>
+<li>ADMIN_ROLE: IDM role of the system admin</li>
+<li>PROVIDER_ROLE: IDM role of the users with seller privileges</li>
+<li>CUSTOMER_ROLE: IDM role of the users with customer privileges</li>
+</ul></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            12/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The Charging Backend component is able to send email notifications to
+the users when they are charged or receive a payment. In this way, it is
+possible to provide email configuration in the <em>settings.py</em> file by
+modifying the following fields: :</p>
+<pre><code>WSTOREMAILUSER = 'email_user'
+WSTOREMAIL = 'wstore_email'
+WSTOREMAILPASS = 'wstore_email_passwd'
+SMTPSERVER = 'wstore_smtp_server'
+SMTPPORT = 587
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            13/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>This settings contain the following values:  WSTOREMAILUSER: Username
+used for authenticating in the email server * WSTOREMAIL: Email to be
+used as the sender of the notifications * WSTOREMAILPASS: Password of
+the user for authenticating in the email server * SMTPSERVER: Email
+server host * SMTPPORT: Email server port</p>
+<blockquote>
+<p><strong>note</strong></p>
+<p>The email configuration in optional. However, the field WSTOREMAIL
+must be provided since it is used internally for RSS configuration</p>
+</blockquote></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            14/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Additionally, the Charging Backend is the component that charges
+customers and pays providers. For this purpose it uses PayPal. For
+configuring paypal, the first step is setting <em>PAYMENT_METHOD</em> to
+<em>paypal</em> in the <em>settings.py</em> file :</p>
+<pre><code>PAYMENT_METHOD = 'paypal'
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            15/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Then, it is required to provide PayPal application credentials by
+updating the file
+<em>src/wstore/charging_engine/payment_client/paypal_client.py</em> :</p>
+<pre><code>PAYPAL_CLIENT_ID = ''
+PAYPAL_CLIENT_SECRET = ''
+MODE = 'sandbox'  # sandbox or live
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            16/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>This settings contain the following values:</p>
+<ul>
+<li>PAYPAL_CLIENT_ID: Id of the application provided by PayPal</li>
+<li>PAYPAL_CLIENT_SECRET: Secret of the application provided by PayPal</li>
+<li>MODE: Mode of the connection. It can be <em>sandbox</em> if using the
+    PayPal sandbox for testing the system. Or <em>live</em> if using the real
+    PayPal APIs</li>
+</ul></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            17/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Moreover, the Charging Backend is the component that activates the
+purchased services. In this regard, the Charging Backend has the
+possibility of signing its acquisition notifications with a certificate,
+so the external system being offered can validate that is the Charging
+Backend the one making the request. To use this functionality it is
+needed to configure the Certificate and the private Key to be used by
+providing its path in the following settings of the <em>settings.py</em> file :</p>
+<pre><code>NOTIF_CERT_FILE = None
+NOTIF_CERT_KEY_FILE = None
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            18/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide has_code">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Finally, the last step is creating the context of the Charging Backend
+by creating two sites using the provided command. First, create the
+external site by executing the following command. Note that you have to
+provide the real URL where the proxy will be running. :</p>
+<div class="highlight"><pre><span></span>$ ./manage.py createsite external http://&lt;proxy_path&gt;:&lt;proxy_port&gt;/
+</pre></div>
+</div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            19/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide has_code">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Then, you have to create the local site by providing the real URL where
+the Charging Backend will be running as follows :</p>
+<div class="highlight"><pre><span></span>$ ./manage.py createsite <span class="nb">local</span> http://localhost:&lt;charging_port&gt;/
+</pre></div>
+</div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            20/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The Charging Backend uses a Cron task to check the status of recurring
+and usage subscriptions, and for paying sellers. The periodicity of this
+tasks can be configured using the CRONJOBS setting of settings.py using
+the standard Cron format :</p>
+<pre><code>CRONJOBS = [
+    ('0 5 * * *', 'django.core.management.call_command', ['pending_charges_daemon']),
+    ('0 6 * * *', 'django.core.management.call_command', ['resend_cdrs'])
+]
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            21/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide has_code">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Once the Cron task has been configured, it is necessary to include it in
+the Cron tasks using the command: :</p>
+<div class="highlight"><pre><span></span>$ ./manage.py crontab add
+</pre></div>
+</div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            22/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide has_code">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Charging Backend</h2>
+                        </header>
+                        
+                        <div class="contents"><p>It is also possible to show current jobs or remove jobs using the
+commands:</p>
+<div class="highlight"><pre><span></span>$ ./manage.py crontab show
+
+$ ./manage.py crontab remove
+</pre></div>
+</div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            23/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide has_code">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The first step for configuring the proxy is creating the configuration
+file by coping <em>config.js.template</em> to <em>config.js</em> :</p>
+<div class="highlight"><pre><span></span>$ cp config.js.template config.js
+</pre></div>
+</div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            24/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The first setting to be configured is the port where the proxy is going
+to run, this setting is located in <em>config.js</em> :</p>
+<pre><code>config.port = 80;
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            25/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>If you want to run the proxy in HTTPS you can update <em>config.https</em>
+setting :</p>
+<pre><code>config.https = {
+    enabled: false,
+    certFile: 'cert/cert.crt',
+    keyFile: 'cert/key.key',
+    caFile: 'cert/ca.crt',
+    port: 443
+};
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            26/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>In this case you have to set <em>enabled</em> to true, and provide the paths to
+certificate (<em>certFile</em>), to the private key (<em>keyFile</em>), and to the CA
+certificate (<em>caFile</em>).</p>
+<p>Then, it is possible to modify some of the URLs of the system.
+Concretely, it is possible to provide a prefix for the API, a prefix for
+the portal, and modifying the login and logout URLS :</p>
+<pre><code>config.proxyPrefix = '';
+config.portalPrefix = '';
+config.logInPath = '/login';
+config.logOutPath = '/logOut';
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            27/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Additionally, the proxy is the component that acts as the front end of
+the Business API Ecosystem, both providing a web portal, and providing
+the endpoint for accessing to the different APIs. In this regard, the
+Proxy has to have the OAUth2 configuration of the FIWARE IDM.</p></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            28/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>To provide OAUth2 configuration, an application has to be created in an
+instance of the FIWARE IdM (e.g https://account.lab.fiware.org),
+providing the following information:</p>
+<ul>
+<li>URL: http|<a href="https://">https://</a>\&lt;proxy_host>:\&lt;proxy_port></li>
+<li>Callback URL:
+    http|<a href="https://">https://</a>\&lt;PROXY_HOST>:\&lt;PROXY_PORT>/auth/fiware/callback</li>
+<li>Create a role <em>Seller</em></li>
+</ul></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            29/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Once the application has been created in the IdM, it is possible to
+provide OAuth2 configuration by modifying the following settings :</p>
+<pre><code>config.oauth2 = {
+    'server': 'https://account.lab.fiware.org',
+    'clientID': '&lt;client_id&gt;',
+    'clientSecret': '&lt;client_secret&gt;',
+    'callbackURL': 'http://&lt;proxy_host&gt;:&lt;proxy_port&gt;/auth/fiware/callback',
+    'roles': {
+        'admin': 'provider',
+        'customer': 'customer',
+        'seller': 'seller'
+    }
+};
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            30/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>In this settings, it is needed to include the IDM instance being used
+(<em>server</em>), the client id given by the IdM (<em>clientID</em>), the client
+secret given by the IdM (<em>clientSecret</em>), and the callback URL
+configured in the IdM (<em>callbackURL</em>)</p></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            31/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Moreover, the Proxy uses MongoDB for maintaining some info, such as the
+current shopping cart of a user. you can configure the connection to
+MongoDB by updating the following setting: :</p>
+<pre><code>config.mongoDb = {
+    server: 'localhost',
+    port: 27017,
+    user: '',
+    password: '',
+    db: 'belp'
+};
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            32/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>In this setting you can configure the host (<em>server</em>), the port
+(<em>port</em>), the database user (<em>user</em>), the database user password
+(<em>password</em>), and the database name (<em>db</em>).</p></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            33/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>As already stated, the Proxy is the component that acts as the endpoint
+for accessing the different APIs. In this way, the proxy needs to know
+the URLs of them in order to redirect the different requests. This
+endpoints can be configured using the following settings :</p>
+<pre><code>config.appHost = 'localhost';    
+config.endpoints = {
+    'catalog': {
+        'path': 'DSProductCatalog',
+        'port': '8080'
+    },
+    'ordering': {
+         'path': 'DSProductOrdering',
+        'port': '8080'
+    },
+
+    ...
+</code></pre></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            34/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>The setting <em>config.appHost</em> contain the host where the APIs are
+running. On the other hand, <em>config.endpoints</em> contains the specific
+configuration of each of the APIs, including its <em>path</em>, and its <em>port</em>.</p>
+<blockquote>
+<p><strong>note</strong></p>
+<p>The default configuration included in the config file is the one used
+by the installation script, so if you have used the script for
+installing the Business API Ecosystem you do not need to modify this
+fields</p>
+</blockquote></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            35/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide">
+                        
+
+                        
+                        <header class="slide-header">
+                            <h2>Configuring the Logic Proxy</h2>
+                        </header>
+                        
+                        <div class="contents"><p>Finally, there are two fields that allow to configure the behaviour of
+the system while running. On the one hand, <em>config.revenueModel</em> allows
+to configure the default percentage that the Business API Ecosystem is
+going to retrieve in all the transactions. On the other hand,
+<em>config.usageChartURL</em> allows to configure the URL of the chart to be
+used to display product usage to customers in the web portal.</p></div>
+                        
+
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            <aside class="page_number">
+                            36/37
+                            </aside>
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="slide-wrapper">
+                    <section class="slide back-cover">
+                        
+                        <div>Thanks!</div>
+                        <img class="fiware-contact" src="fiwaretheme/images/FIWARE-contact.png"/>
+                        <img class="fiware-logo" src="fiwaretheme/images/FIWARE-full.png"/>
+                        <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops-full.png"/>
+                        
+                        <footer>
+                            
+                            <aside class="source">Source: <a href="Configuration.md">Configuration.md</a></aside>
+                            
+                            
+                            
+                            <img class="fiware-logo" src="fiwaretheme/images/FIWARE.png" />
+                            <img class="fiware-lab-ops-logo" src="fiwaretheme/images/FIWARE-lab-ops.png" />
+                            
+                        </footer>
+                        <div class="presenter_notes">
+                            <header><h1>Presenter Notes</h1></header>
+                            <section>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div id="toc" class="sidebar hidden">
+            <h2>Table of Contents</h2>
+            <table>
+                <caption>Table of Contents</caption>
+                
+                <tr id="toc-row-1">
+                    <th><a href="#slide1">Introduction to Business API ecosystem</a></th>
+                    <td><a href="#slide1">1</a></td>
+                </tr>
+                
+                
+                <tr id="toc-row-2">
+                    <th><a href="#slide2">Configuration</a></th>
+                    <td><a href="#slide2">2</a></td>
+                </tr>
+                
+                
+                <tr id="toc-row-3" class="sub">
+                    <th><a href="#slide3">Configuring the RSS</a></th>
+                    <td><a href="#slide3">3</a></td>
+                </tr>
+                
+                <tr id="toc-row-4" class="sub">
+                    <th><a href="#slide4">Configuring the RSS</a></th>
+                    <td><a href="#slide4">4</a></td>
+                </tr>
+                
+                <tr id="toc-row-5" class="sub">
+                    <th><a href="#slide5">Configuring the RSS</a></th>
+                    <td><a href="#slide5">5</a></td>
+                </tr>
+                
+                <tr id="toc-row-6" class="sub">
+                    <th><a href="#slide6">Configuring the RSS</a></th>
+                    <td><a href="#slide6">6</a></td>
+                </tr>
+                
+                <tr id="toc-row-7" class="sub">
+                    <th><a href="#slide7">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide7">7</a></td>
+                </tr>
+                
+                <tr id="toc-row-8" class="sub">
+                    <th><a href="#slide8">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide8">8</a></td>
+                </tr>
+                
+                <tr id="toc-row-9" class="sub">
+                    <th><a href="#slide9">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide9">9</a></td>
+                </tr>
+                
+                <tr id="toc-row-10" class="sub">
+                    <th><a href="#slide10">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide10">10</a></td>
+                </tr>
+                
+                <tr id="toc-row-11" class="sub">
+                    <th><a href="#slide11">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide11">11</a></td>
+                </tr>
+                
+                <tr id="toc-row-12" class="sub">
+                    <th><a href="#slide12">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide12">12</a></td>
+                </tr>
+                
+                <tr id="toc-row-13" class="sub">
+                    <th><a href="#slide13">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide13">13</a></td>
+                </tr>
+                
+                <tr id="toc-row-14" class="sub">
+                    <th><a href="#slide14">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide14">14</a></td>
+                </tr>
+                
+                <tr id="toc-row-15" class="sub">
+                    <th><a href="#slide15">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide15">15</a></td>
+                </tr>
+                
+                <tr id="toc-row-16" class="sub">
+                    <th><a href="#slide16">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide16">16</a></td>
+                </tr>
+                
+                <tr id="toc-row-17" class="sub">
+                    <th><a href="#slide17">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide17">17</a></td>
+                </tr>
+                
+                <tr id="toc-row-18" class="sub">
+                    <th><a href="#slide18">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide18">18</a></td>
+                </tr>
+                
+                <tr id="toc-row-19" class="sub">
+                    <th><a href="#slide19">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide19">19</a></td>
+                </tr>
+                
+                <tr id="toc-row-20" class="sub">
+                    <th><a href="#slide20">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide20">20</a></td>
+                </tr>
+                
+                <tr id="toc-row-21" class="sub">
+                    <th><a href="#slide21">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide21">21</a></td>
+                </tr>
+                
+                <tr id="toc-row-22" class="sub">
+                    <th><a href="#slide22">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide22">22</a></td>
+                </tr>
+                
+                <tr id="toc-row-23" class="sub">
+                    <th><a href="#slide23">Configuring the Charging Backend</a></th>
+                    <td><a href="#slide23">23</a></td>
+                </tr>
+                
+                <tr id="toc-row-24" class="sub">
+                    <th><a href="#slide24">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide24">24</a></td>
+                </tr>
+                
+                <tr id="toc-row-25" class="sub">
+                    <th><a href="#slide25">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide25">25</a></td>
+                </tr>
+                
+                <tr id="toc-row-26" class="sub">
+                    <th><a href="#slide26">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide26">26</a></td>
+                </tr>
+                
+                <tr id="toc-row-27" class="sub">
+                    <th><a href="#slide27">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide27">27</a></td>
+                </tr>
+                
+                <tr id="toc-row-28" class="sub">
+                    <th><a href="#slide28">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide28">28</a></td>
+                </tr>
+                
+                <tr id="toc-row-29" class="sub">
+                    <th><a href="#slide29">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide29">29</a></td>
+                </tr>
+                
+                <tr id="toc-row-30" class="sub">
+                    <th><a href="#slide30">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide30">30</a></td>
+                </tr>
+                
+                <tr id="toc-row-31" class="sub">
+                    <th><a href="#slide31">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide31">31</a></td>
+                </tr>
+                
+                <tr id="toc-row-32" class="sub">
+                    <th><a href="#slide32">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide32">32</a></td>
+                </tr>
+                
+                <tr id="toc-row-33" class="sub">
+                    <th><a href="#slide33">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide33">33</a></td>
+                </tr>
+                
+                <tr id="toc-row-34" class="sub">
+                    <th><a href="#slide34">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide34">34</a></td>
+                </tr>
+                
+                <tr id="toc-row-35" class="sub">
+                    <th><a href="#slide35">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide35">35</a></td>
+                </tr>
+                
+                <tr id="toc-row-36" class="sub">
+                    <th><a href="#slide36">Configuring the Logic Proxy</a></th>
+                    <td><a href="#slide36">36</a></td>
+                </tr>
+                
+                
+                
+                <tr id="toc-row-37">
+                    <th><a href="#slide37">-</a></th>
+                    <td><a href="#slide37">37</a></td>
+                </tr>
+                
+                
+            </table>
+        </div>
+        
+        <div id="help" class="sidebar hidden">
+            <h2>Help</h2>
+            <table>
+                <caption>Help</caption>
+                <tr>
+                    <th>Table of Contents</th>
+                    <td>t</td>
+                </tr>
+                <tr>
+                    <th>Exposé</th>
+                    <td>ESC</td>
+                </tr>
+                <tr>
+                    <th>Full screen slides</th>
+                    <td>e</td>
+                </tr>
+                <tr>
+                    <th>Presenter View</th>
+                    <td>p</td>
+                </tr>
+                <tr>
+                    <th>Source Files</th>
+                    <td>s</td>
+                </tr>
+                <tr>
+                    <th>Slide Numbers</th>
+                    <td>n</td>
+                </tr>
+                <tr>
+                    <th>Toggle screen blanking</th>
+                    <td>b</td>
+                </tr>
+                <tr>
+                    <th>Show/hide slide context</th>
+                    <td>c</td>
+                </tr>
+                <tr>
+                    <th>Notes</th>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Help</th>
+                    <td>h</td>
+                </tr>
+            </table>
+        </div>
+        <script>main()</script>
+    </body>
+</html>

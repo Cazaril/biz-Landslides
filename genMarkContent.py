@@ -23,7 +23,7 @@ names = [{'name': 'Introduction'},
 # for nam in names:
 with open('./Introduction.text') as g:  # .format(nam.get('name')), 'r') as g:
     fich = g.read()
-        
+    
 
 # Im sorry for this but its the fastest and ugliest
 # way to replace the tokens i wrote
@@ -54,16 +54,14 @@ def replaceLinks(this, cadena):
     return cadena
 
 
+# replaceImages should always be called before replaceNotes as the chain for
+# single notes and image notes are equal, but the former is a note along the
+# text whereas the latter is a note that should be presented with the image
+# The regexp used to get the images is: .. image:: (.*)\n.*
 def replaceImages(this, cadena):
-    return 1
+    
 
 
 def replaceNotes(this, cadena):
     cadena = re.sub(r'.. note::\n(.*)', r'Note: \1', cadena)
     return cadena
-# with open('./instalacionTemplate.txt', 'r+') as template:
-#    temp = template.read()
-#    formatedFile = re.sub(r'(=+|-+|\++)\n(.*)\n\1', r'\2\n\1', temp)
-#    template.seek(0)
-#    template.write(formatedFile)
-#    template.truncate()

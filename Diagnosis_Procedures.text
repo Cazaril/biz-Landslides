@@ -1,7 +1,6 @@
 \*
 # Sanity check Procedures
 
-
 The Sanity Check Procedures are the steps that a System Administrator will take
 to verify that an installation is ready to be tested. This is therefore a
 preliminary set of tests to ensure that obvious or basic malfunctioning is fixed
